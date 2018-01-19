@@ -57,8 +57,8 @@ function index(t1, key)
 	print("index access: ", key)
 end
 
-function newindex(t1, key)
-	print("newindex update: ", key)
+function newindex(t1, key, value)
+	print("newindex update: ", key, value)
 end
 
 --metatable
